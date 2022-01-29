@@ -7,37 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="styles-toystore.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles-toystore.css">
 </head>
 
 <body>
     <header class="body-part body-header">
-        <section class="contacts">
-            <h2 class="section-header"></h2>
-            <ul class="contacts-numbers-list">
-                <li class="contacts-numbers-item">Call Us: <a href="tel:+1 213 974-5898" class="number-link"
-                        type="tel">+1 213 974-5898</a></li>
-                <li class="contacts-numbers-item">Email:
-                    <a href="mailto:toystore@template.com" class="number-link">toystore@template.com</a></li>
-            </ul>
-            <ul class="socials-list">
-                <li class="socials-item"><a href="" class="socials-link">Twitter</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Facebook</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Instagram</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Pinterest</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Youtube</a></li>
-            </ul>
+        <section class="header-contacts">
+            <div class="header-contacts__wrapper">
+                <h2 class="visually-hidden">Contacts</h2>
+                <ul class="contacts-numbers__list">
+                    <li class="contacts-numbers__item">Call Us: <a href="tel:+1 213 974-5898"
+                            class="contacts-numbers__link" type="tel">+1 213 974-5898</a></li>
+                    <li class="contacts-numbers-item">Email:
+                        <a href="mailto:toystore@template.com" class="contacts-numbers__link">toystore@template.com</a>
+                    </li>
+                </ul>
+                <ul class="socials__list">
+                    <li class="socials__item"><a href="" class="socials__link twitter">Twitter</a></li>
+                    <li class="socials__item"><a href="" class="socials__link facebook">Facebook</a></li>
+                    <li class="socials__item"><a href="" class="socials__link instagram">Instagram</a></li>
+                    <li class="socials__item"><a href="" class="socials__link pinterest">Pinterest</a></li>
+                    <li class="socials__item"><a href="" class="socials__link youtube">Youtube</a></li>
+                </ul>
+            </div>
         </section>
 
-        <section class="header-wrapper">
-            <a href="#" class="header-logo"><img src="main-logo" alt="Main Logo" class="logo"></a>
-            <nav class="main-nav">
-                <ul class="nav-list nav-list--top">
-                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Catalog</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Delivery</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+        <section class="header-lowpart__wrapper">
+            <h2 class="visually-hidden">Navigation</h2>
+            <a href="#" class="header-lowpart__logo"><img src="img/toystore/logo-dark.png" alt="Main Logo" class="logo"></a>
+            <nav class="header-lowpart__nav main-nav">
+                <ul class="main-nav__list main-nav__list--top">
+                    <li class="main-nav__item"><a href="" class="main-nav__link">Catalog</a></li>
+                    <li class="main-nav__item"><a href="" class="main-nav__link">Delivery</a></li>
+                    <li class="main-nav__item"><a href="" class="main-nav__link">About</a></li>
+                    <li class="main-nav__item"><a href="" class="main-nav__link">Contacts</a></li>
                 </ul>
             </nav>
             <div class="cart">
@@ -46,7 +50,7 @@
         </section>
     </header>
     <main class="body-part body-main">
-        <h1 class="main-header">Toystore - wooden and stuffed toys for children</h1>
+        <h1 class="visually-hidden">Toystore - wooden and stuffed toys for children</h1>
         <article class="promo">
             <h2 class="section-header"></h2>
             <div class="promo-wrapper">
@@ -56,7 +60,7 @@
             </div>
         </article>
         <section class="toys">
-            <h2 class="secton-header">Toys Preview</h2>
+            <h2 class="visually-hidden">Toys Preview</h2>
             <ul class="toys-types-list">
                 <li class="toys-types-item toys-types-item--stuffed">
                     <img src="" alt="Stuffed toys sample (teddybear)" class="toys-types-image">
@@ -156,6 +160,7 @@
             </p>
         </section>
         <article class="article">
+            <h2 class="visually-hidden">Article</h2>
             <div class="article__quote-wrapper">
                 <p class="article__quote-welcome">Made for Webflow</p>
                 <p class="article__quote">Simple & Colorful Ecommerce Template for Your Business</p>
@@ -171,6 +176,7 @@
             </div>
         </article>
         <article class="subcribe-form">
+            <h2 class="visually-hidden">Suscribe form</h2>
             <p class="subcribe__text">Subscribe to our newsletter & get <span class="subcribe__discount">10%
                     discount!</span></p>
             <form class="subscribe__form" action="">
@@ -194,30 +200,32 @@
     </main>
     <footer class="body-part body-footer">
         <section class="sitemap">
-            <img src="sitemap-logo" alt="" class="logo">
-            <ul class="sitemap-nav nav-list nav-list--bottom">
-                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Catalog</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Delivery</a></li>
-                <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+            <h2 class="visually-hidden">Sitemap</h2>
+            <a href="" class="sitemap__logo-link"><img src="img/toystore/logo-light.png" alt="Sitemap Logo" class="logo"></a>
+            <ul class="sitemap__nav nav-list nav-list--bottom">
+                <li class="nav-list__item"><a href="" class="nav-list__link">Home</a></li>
+                <li class="nav-list__item"><a href="" class="nav-list__link">Catalog</a></li>
+                <li class="nav-list__item"><a href="" class="nav-list__link">Delivery</a></li>
+                <li class="nav-list__item"><a href="" class="nav-list__link">About</a></li>
+                <li class="nav-list__item"><a href="" class="nav-list__link">Contacts</a></li>
             </ul>
             <ul class="sitemap-contacts socials-list">
-                <li class="socials-item"><a href="" class="socials-link">Twitter</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Facebook</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Instagram</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Pinterest</a></li>
-                <li class="socials-item"><a href="" class="socials-link">Youtube</a></li>
+                <li class="socials-list__item"><a href="" class="socials-list__link">Twitter</a></li>
+                <li class="socials-list__item"><a href="" class="socials-list__link">Facebook</a></li>
+                <li class="socials-list__item"><a href="" class="socials-list__link">Instagram</a></li>
+                <li class="socials-list__item"><a href="" class="socials-list__link">Pinterest</a></li>
+                <li class="socials-list__item"><a href="" class="socials-list__link">Youtube</a></li>
             </ul>
         </section>
         <section class="copyright">
-            <p class="author">Created with love by
-                <a href="#" class="author-studio"> Elastic Themes</a></p>
+            <h2 class="visually-hidden">Copyright</h2>
+            <p class="copyright__author author">Created with love by
+                <a href="#" class="author__studio"> Elastic Themes</a></p>
 
-            <p class="stack">Powered by
-                <a href="#" class="stack-technology">Webflow</a>
-                <a href="#" class="stack-technology">Style Guide</a>
-                <a href="#" class="stack-technology">Licensing</a>
+            <p class="copyright__stack stack">Powered by
+                <a href="#" class="stack__technology">Webflow</a>
+                <a href="#" class="stack__technology">Style Guide</a>
+                <a href="#" class="stack__technology">Licensing</a>
             </p>
         </section>
     </footer>

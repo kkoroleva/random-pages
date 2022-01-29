@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/toystore/OpenSans-Medium.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "VarelaRound";
+    src: url("../fonts/toystore/VarelaRound-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+:root {
+    /*Sizes*/
+    --desktop-max-width: 1440px;
+    --desktop-content-width: 1140px;
+
+    /*Fonts*/
+    --main-text: "OpenSans", Arial, sans-serif;
+    --extra-text: "VarelaRound", Helvetica, sans-serif;
+
+    /*Colors*/
+    --main-text-dark: #111111;
+    --main-text-dark--hover: #333333;
+    --main-text-light: #FFFFFF;
+    --article-text: #999999;
+    --form-main: #F8F8F8;
+    --footer-line: #FFFFFF40;
+
+
+    --seeall-underline: #DDDDDD;
+    --scroll-main: #E5E5E5;
+
+    --toy-cart-shadow: 0px 1px 2px 0px #00000026;
+    --main-green: #A5C926;
+    --wooden-background: #fb416b;
+    --stuffed-background: #ffc12c;
+
+    /*images*/
+    --twitter: url("../img/toystore/twitter.svg");
+    --facebook: url("../img/toystore/facebook.svg");
+    --instagram: url("../img/toystore/instagram.svg");
+    --pinterest: url("../img/toystore/pinterest.svg");
+    --youtube: url("../img/toystore/youtube.svg");
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-contacts {
+    background-color: var(--main-green);
+}
+
+.header-contacts__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--desktop-content-width);
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.contacts-numbers__list {
+    display: flex;
+    gap: 25px;
+    max-width: 50%;
+
+    font-family: var(--main-text);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: var(--main-text-light);
+}
+
+.contacts-numbers__link {
+    color: var(--main-text-light);
+}
+
+.socials__list {
+    display: flex;
+    gap: 15px;
+    max-width: 50%;
+}
+
+.socials__item {
+    width: 18px;
+    height: 18px;
+}
+
+.socials__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+}
+
+.twitter {
+    background: var(--twitter) center no-repeat;
+}
+.facebook {
+    background: var(--facebook) center no-repeat;
+}
+.instagram {
+    background: var(--instagram) center no-repeat;
+}
+.pinterest {
+    background: var(--pinterest) center no-repeat;
+}
+.youtube {
+    background: var(--youtube) center no-repeat;
+}
+
+.header-lowpart__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: var(--desktop-content-width);
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header-lowpart__nav {
+
+}
+
+.main-nav__list {
+    display: flex;
+    gap: 35px;
+    justify-content: space-around;
+}
+
+
+
+.body-main {}
+
+.body-footer {}
+
+/*hidden objects*/
+
+.visually-hidden {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

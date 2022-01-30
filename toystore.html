@@ -35,7 +35,8 @@
 
         <section class="header-lowpart__wrapper">
             <h2 class="visually-hidden">Navigation</h2>
-            <a href="#" class="header-lowpart__logo"><img src="img/toystore/logo-dark.png" alt="Main Logo" class="logo"></a>
+            <a href="#" class="header-lowpart__logo"><img src="img/toystore/logo-dark.png" alt="Main Logo"
+                    class="logo"></a>
             <nav class="header-lowpart__nav main-nav">
                 <ul class="main-nav__list main-nav__list--top">
                     <li class="main-nav__item"><a href="" class="main-nav__link">Catalog</a></li>
@@ -45,7 +46,10 @@
                 </ul>
             </nav>
             <div class="cart">
-                Cart
+                <a href="" class="cart__link">
+                    <span class="cart__span cart__text">Cart</span>
+                    <span class="cart__span cart__number">0</span>
+                </a>
             </div>
         </section>
     </header>
@@ -53,103 +57,123 @@
         <h1 class="visually-hidden">Toystore - wooden and stuffed toys for children</h1>
         <article class="promo">
             <h2 class="section-header"></h2>
-            <div class="promo-wrapper">
-                <p class="promo-sayhi">Say Hello to ToyStore!</p>
-                <p class="promo-header">Free Ecommerce Template for Webflow</p>
-                <a href="" class="promo-buttom">Open Catalog</a>
+            <div class="promo__wrapper">
+                <p class="promo__sayhi">Say Hello to ToyStore!</p>
+                <p class="promo__header">Free Ecommerce Template&nbsp;for&nbsp;Webflow</p>
+                <a href="" class="promo__button">Open Catalog</a>
             </div>
         </article>
         <section class="toys">
             <h2 class="visually-hidden">Toys Preview</h2>
-            <ul class="toys-types-list">
-                <li class="toys-types-item toys-types-item--stuffed">
-                    <img src="" alt="Stuffed toys sample (teddybear)" class="toys-types-image">
-                    <h3 class="toys-types-header">Stuffed Animals</h3>
-                    <a href="" class="toys-types-button">Shop Now</a>
+            <ul class="toys-types">
+                <li class="toys-types__item types-stuffed">
+                    <img class="types-stuffed__image" src="img/toystore/stuffed.png"
+                        alt="Stuffed toys sample (teddybear)" width="220" height="220">
+                    <h3 class="types-stuffed__header">Stuffed Animals</h3>
+                    <a class="types-stuffed__button" href="">Shop Now</a>
                 </li>
-                <li class="toys-types-item toys-types-item--wooden">
-                    <img src="" alt="Wooden toys sample (flower)" class="toys-types-image">
-                    <h3 class="toys-types-header">Wooden Toys</h3>
-                    <a href="" class="toys-types-button">Shop Now</a>
+                <li class="toys-types__item types-wooden">
+                    <img class="types-wooden__image" src="img/toystore/wooden.png" alt="Wooden toys sample (flower)"
+                        width="220" height="220">
+                    <h3 class="types-wooden__header">Wooden Toys</h3>
+                    <a class="types-wooden__button" href="">Shop Now</a>
                 </li>
             </ul>
             <div class="toys-list__wrapper">
-                <h3 class="toys-list__header">Stuffed Animals</h3>
-                <a href="" class="toys-list__seeall">See All Toys</a>
+                <div class="toys-list__header-wrapper">
+                    <h3 class="toys-list__header">Stuffed Animals</h3>
+                    <a href="" class="toys-list__seeall">See All Toys</a>
+                </div>
                 <ul class="toys-list">
                     <li class="toys-list__item toys-item">
-                        <img src="" alt="" class="toys-item__image">
+                        <img class="toys-item__image" src="img/toystore/stuffed-bear.png" alt="stuffed-bear" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/stuffed-monster.png" alt="stuffed-monster" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/stuffed-dog.png" alt="stuffed-dog" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/stuffed-fox.png" alt="stuffed-fox" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/stuffed-bear.png" alt="stuffed-bear" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/stuffed-monster.png" alt="stuffed-monster" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/stuffed-dog.png" alt="stuffed-dog" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/stuffed-fox.png" alt="stuffed-fox" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                </ul> h4.toys-item__header a.toys-item__price-link
+                </ul> 
             </div>
             <div class="toys-list__wrapper">
-                <h3 class="toys-list__header">Wooden toys</h3>
-                <a href="" class="toys-list__seeall">See All Toys</a>
+                <div class="toys-list__header-wrapper">
+                    <h3 class="toys-list__header">Wooden toys</h3>
+                    <a href="" class="toys-list__seeall">See All Toys</a>
+                </div>
                 <ul class="toys-list">
                     <li class="toys-list__item toys-item">
-                        <img src="" alt="" class="toys-item__image">
+                        <img class="toys-item__image" src="img/toystore/wooden-flower.png" alt="Wooden flower" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/wooden-machine.png" alt="Wooden machine" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/wooden-camera.png" alt="Wooden camera" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/wooden-rabbit.png" alt="Wooden rabbit" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/wooden-flower.png" alt="Wooden flower" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/wooden-machine.png" alt="Wooden machine" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/wooden-camera.png" alt="Wooden camera" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                    <li class="toys-list__item"><img src="" alt="" class="toys-item__image">
+                    <li class="toys-list__item toys-item">
+                        <img class="toys-item__image" src="img/toystore/wooden-rabbit.png" alt="Wooden rabbit" width="182" height="182">
                         <h4 class="toys-item__header">Happy Flower</h4>
                         <a href="" class="toys-item__pricelink">$ 38.00 USD</a>
                     </li>
-                </ul> h4.toys-item__header a.toys-item__price-link
+                </ul> 
             </div>
         </section>
         <section class="about">
@@ -201,7 +225,8 @@
     <footer class="body-part body-footer">
         <section class="sitemap">
             <h2 class="visually-hidden">Sitemap</h2>
-            <a href="" class="sitemap__logo-link"><img src="img/toystore/logo-light.png" alt="Sitemap Logo" class="logo"></a>
+            <a href="" class="sitemap__logo-link"><img src="img/toystore/logo-light.png" alt="Sitemap Logo"
+                    class="logo"></a>
             <ul class="sitemap__nav nav-list nav-list--bottom">
                 <li class="nav-list__item"><a href="" class="nav-list__link">Home</a></li>
                 <li class="nav-list__item"><a href="" class="nav-list__link">Catalog</a></li>
